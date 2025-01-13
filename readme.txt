@@ -10,7 +10,7 @@ USERNAME : purnendudutta521@gmail.com
 
 PASSWORD : Purnendu521@
 
-
+ 
                                  You can replace the below code in: "EDIT-VEHICLE.PHP"
 <?php if($result->Vimage5=="")
 	{
