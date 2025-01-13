@@ -11,7 +11,7 @@ USERNAME : purnendudutta521@gmail.com
 PASSWORD : Purnendu521@
 
 
-                                 You can replace the below code in: "EDIT-VEHICLE.PHP" 
+                                 You can replace the below code in: "EDIT-VEHICLE.PHP"
 <?php if($result->Vimage5=="")
 	{
 		Image 5<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage5);?>" width="300" height="200" style="border:solid 1px #000">
