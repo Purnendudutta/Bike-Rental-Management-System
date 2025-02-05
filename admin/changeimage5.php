@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/config.php');
+include('..\includes\config.php');
 if(strlen($_SESSION['alogin'])==0)
 	{
 header('location:index.php');
@@ -72,8 +72,7 @@ $msg="Image updated successfully";
     -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 }
-		</style>
-
+</style>
 
 </head>
 
@@ -103,7 +102,7 @@ $msg="Image updated successfully";
 
 
 <div class="form-group">
-												<label class="col-sm-4 control-label">Current Image5</label>
+<label class="col-sm-4 control-label">Current Image5</label>
 <?php
 $id=intval($_GET['imgid']);
 $sql ="SELECT Vimage5 from tblvehicles where tblvehicles.id=:id";
