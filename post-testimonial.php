@@ -29,7 +29,8 @@ $error="Something went wrong. Please try again";
 
 }
 ?>
-  <!DOCTYPE HTML>
+
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -165,7 +166,7 @@ foreach($results as $result)
 </section>
 <!--/Profile-setting-->
 
-<<!--Footer -->
+<!--Footer -->
 <?php include('includes/footer.php');?>
 <!-- /Footer-->
 
@@ -200,4 +201,6 @@ foreach($results as $result)
 
 </body>
 </html>
-<?php } ?>
+<?php 
+}
+?>

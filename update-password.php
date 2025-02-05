@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 error_reporting(0);
@@ -34,7 +33,8 @@ $error="Your current password is wrong";
 }
 
 ?>
-  <!DOCTYPE HTML>
+
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -172,7 +172,6 @@ foreach($results as $result)
               <label class="control-label">Current Password</label>
               <input class="form-control white_bg" id="password" name="password"  type="password" required>
             </div>
-            <div cl
             <div class="form-group">
               <label class="control-label">Password</label>
               <input class="form-control white_bg" id="newpassword" type="password" name="newpassword" required>
@@ -228,4 +227,5 @@ foreach($results as $result)
 
 </body>
 </html>
-<?php } ?>
+<?php } 
+?>

@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Brought to You By Code-Projects. Log On To www.code-projects.org for more free projects.
--->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -9,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
@@ -19,7 +15,7 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
 	</head>
 	<body class="landing">
 
@@ -153,7 +149,7 @@
 									<a href="#">purnendudutta521@gmail.com</a>
 								</li>
 								<li>
-									<h3>Phone</h3>
+									<h3>Whatsapp</h3>
 									(+91) 8172032283
 								</li>
 							</ul>

@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 error_reporting(0);
@@ -9,6 +8,7 @@ header('location:index.php');
 }
 else{
 ?>
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -173,4 +173,5 @@ foreach($results as $result)
 
 </body>
 </html>
-<?php } ?>
+<?php } 
+?>

@@ -28,11 +28,8 @@ else
 {
 echo "<script>alert('Something went wrong. Please try again');</script>";
 }
-
 }
-
 ?>
-
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -103,8 +100,8 @@ $_SESSION['brndid']=$result->bid;
   <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" class="img-responsive" alt="image" width="700" height="360"></div>
   <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage2);?>" class="img-responsive" alt="image" width="700" height="360"></div>
   <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage3);?>" class="img-responsive" alt="image" width="700" height="360"></div>
-  <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage4);?>" class="img-responsive"  alt="image" width="700" height="360"></div>
-  <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage5);?>" class="img-responsive"  alt="image" width="700" height="360"></div>
+  <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage4);?>" class="img-responsive" alt="image" width="700" height="360"></div>
+  <div><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage5);?>" class="img-responsive" alt="image" width="700" height="360"></div>
 
   <?php if($result->Vimage5=="")
 {
@@ -204,9 +201,6 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 
-
-
-
 <tr>
 <td>Leather Seats</td>
 <?php if($result->LeatherSeats==1)
@@ -250,15 +244,17 @@ $_SESSION['brndid']=$result->bid;
 <td><i class="fa fa-close" aria-hidden="true"></i></td>
 <?php } ?>
 </tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<?php 
+}
+} 
 
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-
-        </div>
-<?php }} ?>
+?>
 
       </div>
 
