@@ -242,12 +242,6 @@ Image 5<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage5);?>"
 <a href="changeimage5.php?imgid=<?php echo htmlentities($result->id)?>">Change Image 5</a>
 </div>
 
-<?php else 
-	{
-		echo htmlentities("File not available");
-	}
-?>
-
 
 </div>
 <div class="hr-dashed"></div>

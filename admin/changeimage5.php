@@ -21,8 +21,6 @@ $query->execute();
 
 $msg="Image updated successfully";
 
-
-
 }
 ?>
 
