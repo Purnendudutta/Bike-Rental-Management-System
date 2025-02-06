@@ -1082,7 +1082,7 @@ nav.navbar {
   width: 100%;
 }
 .banner_content {
-  padding-left: 120px;
+  padding-right: -50px;
 }
 .banner_content h1 {
   color: #ffffff;
