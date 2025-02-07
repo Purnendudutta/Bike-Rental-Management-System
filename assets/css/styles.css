@@ -275,7 +275,6 @@ blockquote {
   font-size: 18px;
   line-height: 22px;
   margin: 0;
-  vertical-align: middle;
 }
 .btn.outline.active-btn {
 	border-color:#089901;
@@ -439,6 +438,7 @@ blockquote,
 .div_zindex {
   position: relative;
   z-index: 1;
+  margin-top: 50px;
 }
 .dark-overlay {
   background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
@@ -1065,7 +1065,7 @@ nav.navbar {
 -------------------------------*/
 .banner-section {
   background-image: url("../images/banner.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 160px 0;
@@ -1082,7 +1082,7 @@ nav.navbar {
   width: 100%;
 }
 .banner_content {
-  padding-right: -50px;
+  padding-left: 50px;
 }
 .banner_content h1 {
   color: #ffffff;
@@ -4055,11 +4055,11 @@ table.info-tabel tr td {
   text-align: center;
   top: 50%;
   width: 32px;
-  transform:translateY(-50%)
-  -moz-transform:translateY(-50%)
-  -o-transform:translateY(-50%)
-  -webkit-transform:translateY(-50%)
-  -md-transform:translateY(-50%)
+  transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -o-transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+  -md-transform:translateY(-50%);
 }
 .td_divider {
   display: block;
@@ -5451,7 +5451,6 @@ h5 {
 .testimonial_wrap {
   padding: 40px 20px;
 }
-
 
 
 }
