@@ -438,7 +438,6 @@ blockquote,
 .div_zindex {
   position: relative;
   z-index: 1;
-  margin-top: 50px;
 }
 .dark-overlay {
   background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
