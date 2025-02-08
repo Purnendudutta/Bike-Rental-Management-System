@@ -1063,12 +1063,19 @@ nav.navbar {
 	3.1. Banner
 -------------------------------*/
 .banner-section {
-  background-image: url("../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   padding: 160px 0;
   position: relative;
+  background-color: #000;
+}
+.banner-section::before {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
 }
 .banner-section::after {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
@@ -2001,7 +2008,7 @@ input.newsletter-input {
 	z-index:1;
 }
 #banner2 .item:after {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
