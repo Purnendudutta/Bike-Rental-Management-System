@@ -4948,9 +4948,6 @@ h3 {
   top: 100%;
   z-index: 1;
 }
-.header_wrap {
-  margin-top: 19px;
-}
 .header_search #search_toggle, #header-search-form::after {
 	display:block;
 }
